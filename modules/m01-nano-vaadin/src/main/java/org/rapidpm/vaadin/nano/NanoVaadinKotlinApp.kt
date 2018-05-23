@@ -62,9 +62,7 @@ class NanoVaadinKotlinApp {
   @WebServlet("/*")
   @VaadinServletConfiguration(productionMode = false, ui = NanoVaadinKotlinApp.MyUI::class)
   class CoreServlet : VaadinServlet()//customize Servlet if needed
-
   companion object {
-
     @JvmStatic
     fun main(args: Array<String>) {
       try {
